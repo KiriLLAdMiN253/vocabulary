@@ -1,0 +1,46 @@
+.main {
+	min-width: 10%;
+	padding: 1em;
+	margin: 1em;
+	background: #eeeeee;
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+a {
+	padding: 0.5em;
+	margin: 0.5em;
+	background: #dedede;
+	border-radius: 2px;
+	transition: .5s;
+	color: black;
+	width: 20%;
+	font-family: Arial;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 1.5em;
+}
+
+a:hover {
+	background: #cdcdcd;
+	transition: .5s;
+}
+
+p {
+	color: black;
+	font-family: Arial;
+	font-size: 1.3em;
+}
+
+h1 {
+	color: black;
+	font-family: Arial;
+	border-bottom: 1px solid #cecece;
+}
+
+img {
+	border: 0.2em solid #f5f5f5;
+	box-shadow: 0 0 5px rgb(0 0 0 / 30%);
+	margin: 0.5em;
+	border-radius: 3px;
+}
