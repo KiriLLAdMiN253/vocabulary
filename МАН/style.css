@@ -12,7 +12,7 @@ body {
 	overflow: hidden;
 }
 
-a {
+a.button {
 	padding: 0.3em;
 	margin: 0.5em;
 	background: #8f0099;
@@ -27,8 +27,21 @@ a {
 	font-size: 1.4em;
 }
 
-a:hover {
+a.button:hover {
 	background: #be00cc;
+	transition: .5s;
+	color: white;
+}
+
+a {
+	font-family: Calibri;
+	color: #cc0bda;
+	transition: .5s;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #e515f3;
 	transition: .5s;
 }
 
